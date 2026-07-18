@@ -627,3 +627,52 @@ padding:60px 20px;
 }
 
 }
+
+.demo-card {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+.demo-card p {
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.demo-button {
+    margin-bottom: 35px;
+}
+
+.demo-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdfe6;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color .3s, box-shadow .3s;
+}
+
+.demo-form input:focus {
+    outline: none;
+    border-color: #1565c0;
+    box-shadow: 0 0 0 3px rgba(21,101,192,.15);
+}
+
+.demo-form button {
+    width: 100%;
+}
+
+
+.thank-you-message {
+    display: none;
+    margin-top: 20px;
+    padding: 16px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}

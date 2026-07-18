@@ -304,3 +304,22 @@ console.log(
 "Healthcare Claims GTM Portfolio Loaded Successfully"
 
 );
+
+
+/* Demo Section of GTM */
+
+const demoForm = document.getElementById("demoForm");
+const thankYouMessage = document.getElementById("thankYouMessage");
+
+demoForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent page refresh
+
+    // Hide the form
+    demoForm.style.display = "none";
+
+    // Show thank you message
+    thankYouMessage.style.display = "block";
+
+    // Optional: Clear the form
+    demoForm.reset();
+});
